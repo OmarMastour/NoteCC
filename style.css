@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+body {
+  background-color: #fff6db;
+  display: block;
+  max-width: 1800px;
+  padding-left: 400px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.navigation-links-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 1rem;
+}
+.banner {
+  height: 400px;
+  background-image: url(./ISGTunis/banniere.jpg);
+}
+article h1::before {
+  content: url(./ISGTunis/ico_epingle.png);
+}
+section {
+  display: flex;
+  margin-top: 50px;
+}
+aside {
+  background-color: rgb(112, 107, 100);
+  color: white;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+.Footer-Photos {
+  display: flex;
+}
+.liens ul {
+  display: inline-block;
+  list-style: georgian;
+}
+.Photos-ISG {
+  display: flex;
+  height: 0px;
+}
+.logo {
+  width: 90px;
+  height: 91px;
+  object-fit: cover;
+}
+.home-text {
+  font-size: 25px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  font-family: Times New Roman;
+  font-weight: 700;
+  line-height: 3;
+  margin-left: var(--dl-space-space-unit);
+  letter-spacing: auto;
+  font-style: italic;
+}
+.Photos-ISG {
+}
+.social-media {
+  display: flex;
+}
+.banniere {
+  height: 300px;
+  width: 100%;
+}
+.banner {
+  display: flex;
+  background-image: url("./ISG\ Tunis/banniere.jpg");
+  height: 400px;
+  align-items: end;
+  justify-content: space-between;
+  color: white;
+}
+#description {
+  display: flex;
+}
